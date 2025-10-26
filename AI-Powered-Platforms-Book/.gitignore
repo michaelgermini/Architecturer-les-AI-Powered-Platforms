@@ -1,0 +1,138 @@
+# Git ignore file for AI-Powered Platforms Book
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build artifacts
+build/
+dist/
+*.pyc
+__pycache__/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+
+# Python virtual environments
+venv/
+env/
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.backup
+
+# Local configuration files
+config.local.*
+secrets.*
+
+# Documentation build
+docs/_build/
+site/
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Package files
+*.egg-info/
+*.egg
+
+# Local development files
+.local/
+local_settings.py
+
+# Database files
+*.db
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Large media files (if any)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+
+# Large images (if any)
+*.psd
+*.ai
+*.indd
+*.raw
+*.cr2
+*.nef
+*.arw
+*.dng
+*.tiff
+*.tif
+
+# Personal notes and drafts
+notes/
+drafts/
+personal/
+*.personal
+*.draft
+*.todo
+*.note
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Lock files (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
